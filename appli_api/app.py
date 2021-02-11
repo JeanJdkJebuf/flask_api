@@ -13,7 +13,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
 
-from models.models import Food
+from appli_api.models import Food
 
 @app.route("/add")
 def add_food():
