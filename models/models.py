@@ -1,4 +1,4 @@
-from app import db
+from api.app import db
 
 class Food(db.Model):
     __tablename__ = 'foodlist'
